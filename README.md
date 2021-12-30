@@ -2,7 +2,7 @@
 Implementation of the 2 main algorithms in "Graph learning under Spectral Sparsity Constraints",  B. Subbareddy, Aditya Siripuram, Jingxin Zhang.
 
 ## Model of the Graph Spectral Sparsity
-Given Graph signal sequence $X \i \mathbb{R}^{N \times M}$ on graph $\mathcal{G} = \mathcal{G}(\mathcal{V},\mathcal{E})$ with $|V| = N$, we consider the following:
+Given Graph signal sequence \( X \in \mathbb{R}^{N \times M} /) on graph \( \mathcal{G} = \mathcal{G}(\mathcal{V},\mathcal{E}) /) with \( |V| = N /), we consider the following:
 
 $$
 X = V_{\mathcal{G}}Y + \eta
