@@ -13,10 +13,6 @@ ActA = full(F.W);
 [Q,E] = eig(ActA);
 K= [];
 
-
-
-
-
 for i = 1:M
     temp1 = randi([0,5],1,1);
     K = [K,full(sparse(randi([1,20],temp1,1),i*ones(temp1,1),cos(pi*rand(temp1,1)).*(1 + rand(temp1,1)),20,1))];
